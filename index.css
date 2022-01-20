@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(#af67e9,#6565e7);     
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin:0;
+    padding: 0;
+    color: hsl(237, 12%, 33%);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.box{
+    position: absolute;     
+    top: 34rem;
+    /* left: 2.5rem; */
+    left: 3rem;
+    width: 16.6rem;
+    height: 15rem;
+}
+.container{
+    background: url('images/bg-pattern-desktop.svg');
+    background-color: white;
+    background-size: 78% 202%;
+    background-position: -220% 62%;
+    background-repeat: no-repeat;
+    /*font-size: 0.75rem;*/
+    /* margin: 7% 20% 5% 20%; */
+    margin: 10rem 0 4.2rem 0;
+   /*  padding: 4% 5% 5% 0 !important; */
+    padding: 10.2rem 12.8rem 5.5rem 0 !important;
+    border-radius: 1.2rem;
+    /* height: 70%; */
+    align-items: center;
+    width: 70%;
+
+}
+/*.row{
+    font-size: 1.2rem;
+}*/
+.answer{
+    display: none;
+}
+
+.head{
+    font-size: 2.5em;
+    margin-bottom: 5rem; 
+    font-weight: 900;
+}
+.hrl{
+    color: hsl(240, 5%, 91%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content{
+    background-image: url('images/illustration-woman-online-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: -10% 43%;
+    padding: 0 0 3.5rem 10rem;
+    background-size: 40rem 30rem;
+}
+
+.faq{
+    /* margin: 0 100px; */
+    width: 45%;
+    position: relative;
+    left: 50%;
+
+}
+.box{
+    position:absolute;
+}
+/* .women{
+    width: 300px;
+    height: 220px;
+} */
+.attribution{
+    color: rgb(255,255,255);
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.attribution a:hover{
+    color: hsl(14, 88%, 65%);
+    text-decoration: none;
+}
+
+/*a:hover{
+text-decoration: underline;
+}*/
+.question:hover{
+    color: hsl(14, 88%, 65%);
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+/*#q1{
+    font-weight: 400;
+}
+*/
+.question{
+    text-decoration: none;
+    color: hsl(237, 12%, 33%);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.question:visited{
+    text-decoration: none;
+}
+
+.question:active {
+    text-decoration: none;
+}
+
+.answer{
+    padding-right: 25px;
+    padding-top: 0.5rem;
+}
+
+.attribution a, a:hover{
+    text-decoration: none;
+    color:hsl(240, 5%, 91%);
+}
+
+.iconarr{
+    width: 25px;
+    text-align: center;
+}
+.mble-bg{
+    display: none;
+}
+
+@media(max-width: 1024px) {
+    .box{
+        left: 2.5rem;
+    }
+}
+
+@media (max-width: 1075px){
+    .content{
+        background-size: 30rem 30rem;
+    }
+    .box{
+    top: 35rem;
+    left: -1.5rem;
+    width: 10.6rem;
+    height: 12rem;
+    }
+    .faq{
+        left: 60%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .mble-bg{
+        display:block;
+        position: absolute;
+        top: 4rem;
+        left: 23.7rem;
+        
+        margin: 0;
+    }
+    .container{
+        background-image: none;
+        text-align: center;
+        padding: 0 !important;
+        background-image: url('images/bg-pattern-mobile.svg');
+        background-size: 24rem 10rem;
+        background-position: top;
+        margin: 15rem 8rem;
+        
+        
+    }
+    .content{
+        background-image: none;
+        display: block;
+        position:static;
+        padding: 0;
+        
+        
+    }
+    .faq{
+        
+        display: block;
+        position: static;
+        margin: 16rem 8rem 8rem 8rem;
+        width: inherit;
+
+    }
+    
+    .box{
+        display: none;
+    }
+    .answer{
+        text-align: left;
+    }
+    #q1,#q2,#q3,#q4,#q5{
+        text-align: left;
+    }
+}
+
+@media(max-width: 425px){
+    .ques{
+        font-size: 1.2rem;
+    }
+    .mble-bg{
+        left: 6.5rem;
+    }
+    .container{
+        width: 90% !important;
+        margin: 15rem 5rem;
+    }
+    .faq{
+        margin: 16rem 4rem 4rem 4rem;
+    }
+    
+    .attribution{
+        margin-bottom: 3rem;
+        font-size: 0.8rem;
+    }
+}
+@media(max-width: 375px){
+    .mble-bg{
+        width: 22rem;
+        height: 19rem;
+    }
+    .container{
+        margin: 15rem 5rem;
+        background-size: 20rem 10rem;
+    }
+    .faq{
+        margin: 16rem 4rem 4rem 4rem;
+    }
+    
+    .attribution{
+        margin-bottom: 3rem;
+    }
+}
